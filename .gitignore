@@ -1,0 +1,42 @@
+# Build outputs 
+Debug/
+Release/
+build/
+out/
+*.elf
+*.bin
+*.hex
+*.srec
+*.map
+*.list
+*.su
+*.cyclo
+*.d
+*.o
+*.obj
+*.a
+*.lib
+
+# STM32CubeIDE / Eclipse metadata & local state
+.settings/
+.metadata/
+*.launch
+.cproject.bak
+.project.bak
+
+# STM32CubeMX temporary / generated lock files
+*.mxproject
+.mxproject
+*.tmp
+*.bak
+
+# CMake / VS Code / PlatformIO 
+.vscode/
+.pio/
+.cache/
+
+# OS & editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*~
